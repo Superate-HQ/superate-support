@@ -1,13 +1,13 @@
 import "./style.css";
 
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
-  <div class="rounded-sm bg-white w-5/6 max-w-[70%] mx-auto h-fit md:h-4/6 mt-7 shadow-lg p-8 mb-4">
+  <div class="rounded-sm bg-white w-5/6 max-w-[70%] mx-auto h-fit md:h-4/6 mt-7 shadow-lg p-8 sm:!mb-7 md:mb-0">
   <div class='flex items-center gap-2 flex-col md:flex-row md:gap-4'>
-    <img src='./src/assets/logo.png' alt='Superate logo' height='70px' width='70px'/>
-    <h1 class='text-center lg:text-pretty capitalize font-black tracking-wide text-xl md:text-3xl sm:text-2xl lg:text-4xl text-green-500'>Welcome to the Superate Support page</h1>
+    <img src='./src/assets/logo.png' alt='Superate logo' height='65px' width='65px'/>
+    <h1 class='text-center lg:text-pretty capitalize font-black tracking-wide text-2xl md:text-3xl lg:text-4xl text-green-500'>Welcome to the Superate Support page</h1>
   </div>
     <div class='flex items-start gap-4 mt-10 justify-center flex-col md:flex-row'>
-        <div class='w-full md:w-1/2 h-[300px] md:shrink-0'>
+        <div class='w-full md:w-1/2 h-[200px] md:h-[300px] md:shrink-0'>
             <img src='./src/assets/page-image.svg' class='h-full w-full object-cover'/>
         </div>
         <div class='flex flex-col '>
