@@ -1,7 +1,7 @@
 import "./style.css";
 
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
-  <div class="rounded-sm bg-white w-5/6 max-w-[70%] mx-auto h-fit md:h-1/4 mt-7 shadow-lg p-8 mb-4">
+  <div class="rounded-sm bg-white w-5/6 max-w-[70%] mx-auto h-fit md:h-4/6 mt-7 shadow-lg p-8 mb-4">
   <div class='flex items-center gap-2 flex-col md:flex-row md:gap-4'>
     <img src='./src/assets/logo.png' alt='Superate logo' height='70px' width='70px'/>
     <h1 class='text-center lg:text-pretty capitalize font-black tracking-wide text-xl md:text-3xl sm:text-2xl lg:text-4xl text-green-500'>Welcome to the Superate Support page</h1>
