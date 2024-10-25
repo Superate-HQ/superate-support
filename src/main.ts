@@ -3,7 +3,7 @@ import SuperateLogo from "./assets/logo.svg";
 import Banner from "./assets/page-image.svg";
 
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
-  <div class="rounded-sm bg-white w-5/6 max-w-[70%] mx-auto h-fit md:h-4/6 mt-7 shadow-lg p-8 sm:!mb-7 md:mb-0">
+  <div class="rounded-md bg-white w-5/6 max-w-[70%] mx-auto h-fit md:h-4/6 mt-7 shadow-lg p-8 sm:!mb-7 md:mb-0">
   <div class='flex items-center gap-2 flex-col md:flex-row md:gap-4'>
     <img src='${SuperateLogo}' alt='Superate logo' height='65px' width='65px'/>
     <h1 class='text-center lg:text-pretty capitalize font-black tracking-wide text-2xl md:text-3xl lg:text-4xl text-green-500'>Welcome to the Superate Support page</h1>
