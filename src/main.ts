@@ -14,8 +14,9 @@ document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
         </div>
         <div class='flex flex-col '>
         <p class='text-light-gray'>We are here to help you! If you encounter any issues, have any questions, or need assistance with the app, feel free to reach out to us. </p>
-        <p class='text-light-gray mt-2'>You can contact us with the email below or click the button at the bottom-right side of your screen:</p>
+        <p class='text-light-gray mt-2'>You can contact us with the email OR Whatsapp link below or click the button at the bottom-right side of your screen:</p>
         <strong class='mt-3 text-green-500 font-bold text-xl'>support@superate.app</strong>
+        <strong class='mt-3 text-green-500 font-bold text-xl'><a href="https://wa.me/447549861787"></a></strong>
         <p class='text-light-gray mt-4'>We&apos;ll do our best to get back to you as soon as possible!</p>
         </div>
     </div>
